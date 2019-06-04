@@ -396,6 +396,12 @@ Jenkins errors:
   Answer:
   
 5. [SSH] exception, channel is not opening  
+   node ssh connection failure i think
+
+6.Exception :
+Waiting for Jenkins to finish collecting data[ERROR] Plugin twigkit:twigkit.plugins.generate-taglibs:4.2.5 or one of its dependencies could not be resolved: Could not find artifact twigkit:twigkit.plugins.generate-taglibs:jar:4.2.5 in central (https://repo.maven.apache.org/maven2) -> [Help 1]
+org.apache.maven.plugin.PluginResolutionException: Plugin twigkit:twigkit.plugins.generate-taglibs:4.2.5 or one of its dependencies could not be resolved: Could not find artifact twigkit:twigkit.plugins.generate-taglibs:jar:4.2.5 in central (https://repo.maven.apache.org/maven2)
+
   
   
   
