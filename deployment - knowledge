@@ -13,6 +13,15 @@ and move the updated version of the application and restart the server.
 5.restarting the server
 
 
+https://dzone.com/articles/running-tomcat-behind-apache-with-mod-rewrite-and
+
+https://www.linode.com/docs/web-servers/apache/multiple-web-servers-with-proxypass-on-fedora-12/
+
+https://www.linode.com/docs/web-servers/apache-tips-and-tricks/rewrite-urls-with-modrewrite-and-apache/
+
+
+
+
 
 Lets discuss four major deployment types:
 During a deployment process, your service is responsive the whole time, means that no requests are dropped at any point during the
