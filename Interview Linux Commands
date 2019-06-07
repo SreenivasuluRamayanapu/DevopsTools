@@ -15,6 +15,9 @@ how to give execute permission to a file?
 chmod +x deploy
 
 
+deleting the log files older than 5Days
+https://www.vionblog.com/linux-delete-files-older-than-x-days/
+
 ~/.ssh/authorized_keys
 
 //Copy your ssh public key to a server from a machine that doesn't have ssh-copy-id
