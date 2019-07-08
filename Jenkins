@@ -685,6 +685,14 @@ https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-
  10.50.86.6:8080 
 administrator
 Bu!ldS3rv3r@123
+
+
+
+
+
+
+15:17:57 ERROR: Build step failed with exception
+15:17:57 org.codehaus.cargo.container.ContainerException: Failed to redeploy [D:\APACJenkins\workspace\Pre-Prod_Online_OnetouchAPI\target\OneTouchAPI.war]
   
 
  		
