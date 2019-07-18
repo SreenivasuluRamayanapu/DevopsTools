@@ -758,6 +758,19 @@ mv /home/tomcat/.jenkins/jobs/Amazon-Linux-GlobalFeederAPI/workspace/app/target/
 ttp://haysportaldevdeploymentlb-1373305374.ap-southeast-2.elb.amazonaws.com/job/JobAlertProcessor/7/console
 
 
+
+
+Zipping files into /usr/local/apache-tomcat-7.0.64/temp/Project-S-2096257331313267346.zip
+
+Uploading zip to s3://hays-cloudformation-syd/projects/online/project-s/production/Project-S-2096257331313267346.zip
+
+
+
+
+RewriteEngine On
+RewriteRule ^folder1.*$ http://example.com/folder2/ [R=301,L]
+
+
  		
 
 
