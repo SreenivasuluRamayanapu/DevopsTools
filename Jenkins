@@ -695,7 +695,67 @@ Bu!ldS3rv3r@123
 15:17:57 org.codehaus.cargo.container.ContainerException: Failed to redeploy [D:\APACJenkins\workspace\Pre-Prod_Online_OnetouchAPI\target\OneTouchAPI.war]
   
 
- 		
+ 	
+  
+  Jenkins NodeJS Plugin, 
+workspace resides 
+manage jenkins - configure system - here you can see Home directory
+
+
+
+
+
+
+
+appspec.yml
+version: 0.0
+os: linux
+files:
+  - source: /app/target/quicksilver1#api.war
+    destination: /usr/local/apache-tomcat-7.0.88/webapps/
+permissions:
+  - object: /
+    owner: tomcat
+    group: tomcat
+    mode: 744
+hooks:
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+    - location: scripts/removeOldApp.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 300
+      runas: root
+
+scripts
+removeoldApp.sh
+removeoldAppv1.sh
+start_server.sh
+stop_server.sh
+
+prestep 
+2nd executeshell
+cd app
+git checkout origin/Prod-Conf -- ./src/main/resources/application.properties
+git checkout origin/Prod-Conf -- ./src/main/resources/log4j.properties
+
+
+
+postbuild
+1st executeshell
+mv /home/tomcat/.jenkins/jobs/Amazon-Linux-GlobalFeederAPI/workspace/app/target/qsapi-1.war /home/tomcat/.jenkins/jobs/Amazon-Linux-GlobalFeederAPI/workspace/app/target/globalfeederapi.war
+
+
+
+
+
+
+ttp://haysportaldevdeploymentlb-1373305374.ap-southeast-2.elb.amazonaws.com/job/JobAlertProcessor/7/console
 
 
  		
