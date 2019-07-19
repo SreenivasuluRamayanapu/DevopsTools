@@ -794,6 +794,20 @@ https://www.serverkaka.com/2018/05/block-traffic-from-single-ip-in-aws.html
 https://www.serverkaka.com/2018/05/grant-access-to-only-one-s3-bucket-to-aws-user.html
 
 
+As discussed, please fill up the allowed IPs/ports for the LBs (Prod web LBs to be picked-up first)
+
+I have done this for Evolve Prod, GlobalSearch prod, GDPR Prod
+
+
+
+
+
+
+
+
+
+
+
 
 Linux:
 https://www.serverkaka.com/2018/03/all-basic-linux-unix-commands.html
