@@ -771,6 +771,44 @@ RewriteEngine On
 RewriteRule ^folder1.*$ http://example.com/folder2/ [R=301,L]
 
 
+
+
+
+
+https://vnextcoder.wordpress.com/2016/10/25/part-3-storing-jenkins-output-to-aws-s3-bucket/
+https://www.serverkaka.com/2018/08/upload-build-aws-s3-from-jenkins.html
+https://www.serverkaka.com/2018/08/send-build-artifacts-over-ssh-jenkins.html
+https://www.serverkaka.com/2018/08/enable-password-authentication-aws-ec2-instance.html
+https://www.serverkaka.com/2018/08/add-jenkins-slave-node-windows-system.html
+https://www.serverkaka.com/2018/08/add-jenkins-slave-node-linux-system.html
+
+
+aws:
+https://www.serverkaka.com/2018/11/how-to-setup-aws-s3-access-from-specific-ips.html
+https://www.serverkaka.com/2018/04/create-bucket-in-aws-s3.html
+https://www.serverkaka.com/2018/04/change-aws-ec2-instance-type.html
+https://www.serverkaka.com/2018/04/modify-volume-size-aws-ec2.html
+https://www.serverkaka.com/2018/04/add-new-volume-to-aws-instance.html
+https://www.serverkaka.com/2018/05/create-aws-ec2-load-balancer.html
+https://www.serverkaka.com/2018/05/block-traffic-from-single-ip-in-aws.html
+https://www.serverkaka.com/2018/05/grant-access-to-only-one-s3-bucket-to-aws-user.html
+
+
+
+Linux:
+https://www.serverkaka.com/2018/03/all-basic-linux-unix-commands.html
+https://www.serverkaka.com/2018/04/set-up-basic-authentication-apache-ubuntu.html
+https://www.serverkaka.com/2018/04/set-up-basic-authentication-apache-using-htaccess-centos-redhat.html
+
+
+
+
+https://www.serverkaka.com/2018/07/jenkins-interview-questions.html
+https://www.serverkaka.com/2018/08/change-home-directory-of-jenkins.html
+https://www.serverkaka.com/2018/08/build-jenkins-job-with-condition-and.html
+https://www.serverkaka.com/2018/08/run-powershell-scripts-in-jenkins.html
+
+
  		
 
 
